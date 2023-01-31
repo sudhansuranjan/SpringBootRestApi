@@ -3,8 +3,11 @@ package com.rs.demo.model.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.rs.demo.model.User;
 
+@Repository
 public class UserServiceImpl implements UserService {
 	
 	
